@@ -1,16 +1,16 @@
-# Domain Adaptive Person Search
+# DDAM-PS: Diligent Domain Adaptive Mixer for Person Search
 
 ## Introduction
 
-This is the official implementation for our paper Domain Adaptive Person Search (DAPS) in ECCV2022. The code is  based on the official code of [SeqNet](https://github.com/serend1p1ty/SeqNet) and [SPCL](https://github.com/yxgeee/SpCL).
+This is the official implementation for our DDAM-PS: Diligent Domain Adaptive Mixer for Person Search in WACV2024. 
 
 Performance :
 we tried some hyper-parameters and got better ReID performance reported in our paper.
 
 |  Source   |  Target   | mAP  | Top-1 |                             CKPT                             |                             log                              |
 | :-------: | :-------: | :--: | :---: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|    PRW    | CUHK-SYSU | 78.5 | 80.7  | [ckpt](https://drive.google.com/file/d/1VFGiIqGI2SiJ98uIOnGLSqploWLX5AS_/view?usp=sharing) | [train_log](https://drive.google.com/file/d/1f-vGsN_wK08xUZF7R_thEfG18haOj-t6/view?usp=sharing) |
-| CUHK-SYSU |    PRW    | 35.3 | 80.2  | [ckpt](https://drive.google.com/file/d/18eSJE3ljFl3SDf2H34PWVhFLmFhij3Rl/view?usp=sharing) | [train_log](https://drive.google.com/file/d/1DMPEqOu5pX2YLFRUFqQKNdAmA1YZDhqv/view?usp=sharing) |
+|    PRW    | CUHK-SYSU | 79.5 | 81.3  | [ckpt]() |
+| CUHK-SYSU |    PRW    | 36.7 | 81.2  | [ckpt]() | 
 
 ![framework](doc/framework.png)
 
@@ -60,4 +60,4 @@ CUHK-SYSU as the target domain:
 python train_da_dy_cluster.py --cfg configs/prw_da.yaml
 ```
 
-**Note**: At present, our script only supports single GPU training, but distributed training will be also supported in future. By default, the batch size is set to 4, which requires about 27GB of GPU memory. If your GPU cannot provide the required memory, try smaller batch size and learning rate (*performance may degrade*). 
+**Note**: At present, our script only supports single GPU training, but distributed training will be also supported in future. By default, the batch size is set to 4 for CUHK-SYSU. If your GPU cannot provide the required memory, try smaller batch size and learning rate (*performance may degrade*). 
