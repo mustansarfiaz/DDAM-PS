@@ -1,4 +1,4 @@
-# DDAM-PS: Diligent Domain Adaptive Mixer for Person Search
+# DDAM-PS: Diligent Domain Adaptive Mixer for Person Search --  WACV2024
 
 ## Introduction
 
