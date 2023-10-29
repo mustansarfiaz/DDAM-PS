@@ -1,7 +1,5 @@
 # DDAM-PS: Diligent Domain Adaptive Mixer for Person Search --  WACV2024
 
-## Introduction
-
 This is the official implementation for our **DDAM-PS: Diligent Domain Adaptive Mixer for Person Search** in WACV2024. 
 
 ## Highlights
