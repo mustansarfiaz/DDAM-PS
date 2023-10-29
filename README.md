@@ -8,6 +8,10 @@ This is the official implementation for our **DDAM-PS: Diligent Domain Adaptive 
 -----------------
 - **AA:** ps.
 
+
+## Framework :
+![framework](doc/framework.png)
+
 ## Performance :
 we tried some hyper-parameters and got better ReID performance reported in our paper.
 
@@ -15,9 +19,6 @@ we tried some hyper-parameters and got better ReID performance reported in our p
 | :-------: | :-------: | :--: | :---: | :----------------------------------------------------------: |
 |    PRW    | CUHK-SYSU | 79.5 | 81.3  | [ckpt]() |
 | CUHK-SYSU |    PRW    | 36.7 | 81.2  | [ckpt]() | 
-
-## Framework :
-![framework](doc/framework.png)
 
 ## Installation
 
