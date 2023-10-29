@@ -97,4 +97,3 @@ We thank them for releasing their baseline code.
   year={2022}
 }
 ```
-**Note**: At present, our script only supports single GPU training, but distributed training will be also supported in future. By default, the batch size is set to 4 for CUHK-SYSU. If your GPU cannot provide the required memory, try smaller batch size and learning rate (*performance may degrade*). 
