@@ -15,7 +15,6 @@ This is the official implementation for our **DDAM-PS: Diligent Domain Adaptive 
 ![framework](doc/framework.png)
 
 ## Performance :
-we tried some hyper-parameters and got better ReID performance reported in our paper.
 
 |  Source   |  Target   | mAP  | Top-1 |                             CKPT                             |
 | :-------: | :-------: | :--: | :---: | :----------------------------------------------------------: |
