@@ -4,7 +4,7 @@ INPUT:
   DATASET: "PRW"
   TDATA_ROOT: "/data1/mustansar/dataset/CUHK-SYSU"
   DATA_ROOT: "/data1/mustansar/dataset/PRW-v16.04.20/"
-  BATCH_SIZE_TRAIN: 4
+  BATCH_SIZE_TRAIN: 6
 SOLVER:
   MAX_EPOCHS: 20
   BASE_LR: 0.003
