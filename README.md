@@ -11,11 +11,12 @@ This is the official implementation for our **DDAM-PS: Diligent Domain Adaptive 
 ## Performance :
 we tried some hyper-parameters and got better ReID performance reported in our paper.
 
-|  Source   |  Target   | mAP  | Top-1 |                             CKPT                             |                             log                              |
-| :-------: | :-------: | :--: | :---: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|  Source   |  Target   | mAP  | Top-1 |                             CKPT                             |
+| :-------: | :-------: | :--: | :---: | :----------------------------------------------------------: |
 |    PRW    | CUHK-SYSU | 79.5 | 81.3  | [ckpt]() |
 | CUHK-SYSU |    PRW    | 36.7 | 81.2  | [ckpt]() | 
 
+## Framework :
 ![framework](doc/framework.png)
 
 ## Installation
@@ -92,5 +93,5 @@ We thank them for releasing their baseline code.
   booktitle={Proceedings of the ACCV Asian Conference on Computer Vision}, 
   year={2022}
 }
-
+```
 **Note**: At present, our script only supports single GPU training, but distributed training will be also supported in future. By default, the batch size is set to 4 for CUHK-SYSU. If your GPU cannot provide the required memory, try smaller batch size and learning rate (*performance may degrade*). 
