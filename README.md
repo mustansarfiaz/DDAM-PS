@@ -2,9 +2,13 @@
 
 ## Introduction
 
-This is the official implementation for our DDAM-PS: Diligent Domain Adaptive Mixer for Person Search in WACV2024. 
+This is the official implementation for our **DDAM-PS: Diligent Domain Adaptive Mixer for Person Search** in WACV2024. 
 
-Performance :
+## Highlights
+-----------------
+- **AA:** ps.
+
+## Performance :
 we tried some hyper-parameters and got better ReID performance reported in our paper.
 
 |  Source   |  Target   | mAP  | Top-1 |                             CKPT                             |                             log                              |
@@ -59,5 +63,34 @@ CUHK-SYSU as the target domain:
 ```
 python train_da_dy_cluster.py --cfg configs/prw_da.yaml
 ```
+
+## Contact
+If you have any questions, please create an issue on this repository or contact us at mustansar.fiaz@mbzuai.ac.ae
+
+## References
+Our code is based on [DAPS](https://github.com/caposerenity/DAPS)  repositories. 
+We thank them for releasing their baseline code.
+
+## Citation
+
+```
+@inproceedings{fiaz2022sat,
+  title={DDAM-PS: Diligent Domain Adaptive Mixer for Person Search},
+  author={Almansoori, Mohammed Khaleed  and Fiaz, Mustansar and Cholakkal, Hisham},
+  booktitle={WACV},
+  year={2024}
+}
+@inproceedings{fiaz2022sat,
+  title={SAT: Scale-Augmented Transformer for Person Search},
+  author={Fiaz, Mustansar and Cholakkal, Hisham and Anwar, Rao Muhammad and Khan, Fahad Shahbaz},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  year={2023}
+}
+@inproceedings{fiaz2022psarm,
+  title={PS-ARM: An End-to-End Attention-aware Relation Mixer Network for Person Search},
+  author={Fiaz, Mustansar and Cholakkal, Hisham and Narayan, Sanath and Anwar, Rao Muhammad and Khan, Fahad Shahbaz},
+  booktitle={Proceedings of the ACCV Asian Conference on Computer Vision}, 
+  year={2022}
+}
 
 **Note**: At present, our script only supports single GPU training, but distributed training will be also supported in future. By default, the batch size is set to 4 for CUHK-SYSU. If your GPU cannot provide the required memory, try smaller batch size and learning rate (*performance may degrade*). 
