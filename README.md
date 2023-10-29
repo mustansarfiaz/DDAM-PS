@@ -75,13 +75,13 @@ We thank them for releasing their baseline code.
 ## Citation
 
 ```
-@inproceedings{fiaz2022sat,
+@inproceedings{fiaz2024ddam_ps,
   title={DDAM-PS: Diligent Domain Adaptive Mixer for Person Search},
   author={Almansoori, Mohammed Khaleed  and Fiaz, Mustansar and Cholakkal, Hisham},
-  booktitle={WACV},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
   year={2024}
 }
-@inproceedings{fiaz2022sat,
+@inproceedings{fiaz2023sat,
   title={SAT: Scale-Augmented Transformer for Person Search},
   author={Fiaz, Mustansar and Cholakkal, Hisham and Anwar, Rao Muhammad and Khan, Fahad Shahbaz},
   booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
