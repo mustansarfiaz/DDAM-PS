@@ -69,7 +69,7 @@ python train_da_dy_cluster.py --cfg configs/prw_da.yaml
 ```
 
 ## Contact
-If you have any questions, please create an issue on this repository or contact us at mustansar.fiaz@mbzuai.ac.ae
+If you have any questions, please create an issue on this repository or contact us at mustansar.fiaz@ibm.com
 
 ## References
 Our code is based on [DAPS](https://github.com/caposerenity/DAPS)  repositories. 
