@@ -7,7 +7,7 @@ This is the official implementation for our **DDAM-PS: Diligent Domain Adaptive 
 - **Domain Adaptive Mixing Mechanism:** Our approach introduces a diligent domain adaptive mixing mechanism with the aim of narrowing the gap between the source and target domains within the context of person search domain adaptation. Specifically, we train mixed domain representations that effectively bridge the differences between these two domains, expediting the transfer of source information to the target domain. This, in turn, enhances the performance of unsupervised domain adaptation (UDA) in person search tasks.
 - **Bridge and Disparity Losses:** To boost our domain adaptation capabilities and create refined mixed domain representations, we introduce two bridge losses along with a disparity loss.
 - **Decoupling of the NAE:** In order to mitigate the conflicts between detection and ReID (Re-identification) and further enhance domain adaptation, we propose the decoupling of the NAE representation.
-- **Performance Comparison:** xperimental results clearly illustrate the promising performance of our method on two datasets, surpassing the capabilities of state-of-the-art methods. These results underscore the effectiveness of our approach.
+- **Performance Comparison:** Experimental results clearly illustrate the promising performance of our method on two datasets, surpassing the capabilities of state-of-the-art methods. These results underscore the effectiveness of our approach.
 
 ## Framework :
 ![framework](doc/framework.png)
