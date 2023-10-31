@@ -16,8 +16,8 @@ This is the official implementation for our **DDAM-PS: Diligent Domain Adaptive 
 
 |  Source   |  Target   | mAP  | Top-1 |                             CKPT                             |
 | :-------: | :-------: | :--: | :---: | :----------------------------------------------------------: |
-|    PRW    | CUHK-SYSU | 79.5 | 81.3  | [ckpt]() |
-| CUHK-SYSU |    PRW    | 36.7 | 81.2  | [ckpt]() | 
+|    PRW    | CUHK-SYSU | 79.5 | 81.3  | [ckpt](https://drive.google.com/file/d/1y57ilNXLK8Op3J0pbl_PzSwrGZ30VG4S/view?usp=sharing) |
+| CUHK-SYSU |    PRW    | 36.7 | 81.2  | [ckpt](https://drive.google.com/file/d/1q8TQKrv376U6NYU3NxyrTLkRFWLYmDCt/view?usp=sharing) | 
 
 ## Installation
 
