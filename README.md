@@ -9,7 +9,7 @@ This is the official implementation for our **DDAM-PS: Diligent Domain Adaptive 
 - **Decoupling of the NAE:** In order to mitigate the conflicts between detection and ReID (Re-identification) and further enhance domain adaptation, we propose the decoupling of the NAE representation.
 - **Performance Comparison:** Experimental results clearly illustrate the promising performance of our method on two datasets, surpassing the capabilities of state-of-the-art methods. These results underscore the effectiveness of our approach.
 
-## Framework :
+## Framework
 ![framework](doc/framework.png)
 
 ## Performance :
