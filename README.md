@@ -10,7 +10,7 @@ This is the official implementation for our **DDAM-PS: Diligent Domain Adaptive 
 - **Performance Comparison:** Experimental results clearly illustrate the promising performance of our method on two datasets, surpassing the capabilities of state-of-the-art methods. These results underscore the effectiveness of our approach.
 
 ## Framework
-![framework](doc/framework.png)
+![framework](framework.png)
 
 ## Performance :
 
