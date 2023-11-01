@@ -37,7 +37,7 @@ Run `pip install -r requirements.txt` in the root directory of the project.
 
 1. Following the link in the above table, download our pretrained model to anywhere you like
 
-2. Evaluate its performance by specifing the paths of checkpoint and corresponding configuration file.
+2. Evaluate its performance by specifying the paths of checkpoint and corresponding configuration file.
 
 PRW as the target domain:
 
