@@ -73,6 +73,7 @@ If you have any questions, please create an issue on this repository or contact 
 ## References
 Our code is based on [DAPS](https://github.com/caposerenity/DAPS)  repositories. 
 We thank them for releasing their baseline code.
+**DDAM-PS**: "DDAM-PS: Diligent Domain Adaptive Mixer for Person Search", WACV, 2024 (*MBZUAI*). [[Paper](https://arxiv.org/abs/2310.20706)][[PyTorch](https://github.com/mustansarfiaz/DDAM-PS)]
 
 ## Citation
 
